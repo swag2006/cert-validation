@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: SSL-Cert-Validation
+
+ssl:
+  url:
+    to:
+      validate: https://example.com
