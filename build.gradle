@@ -21,10 +21,17 @@ repositories {
 	mavenCentral()
 }
 
+
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-json'
-	implementation 'io.github.jamsesso:json-logic:1.0.2'
+	implementation 'io.github.jamsesso:json-logic-java:1.0.7'
+//	Excel Rule...
+	implementation 'org.apache.poi:poi:5.2.3'
+	implementation 'org.apache.poi:poi-ooxml:5.3.0'
+	implementation 'org.apache.xmlbeans:xmlbeans:5.1.1'
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
